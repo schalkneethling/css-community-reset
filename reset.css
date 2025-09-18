@@ -2,6 +2,7 @@
  * A combination of the following resets:
  * https://piccalil.li/blog/a-more-modern-css-reset/
  * https://www.joshwcomeau.com/css/custom-css-reset/
+ * https://dbushell.com/2025/09/12/css-reset/
  */
 
 /* Use a more-intuitive box-sizing model. */
@@ -23,6 +24,13 @@ html {
   -webkit-text-size-adjust: none;
   /* stylelint-disable-next-line plugin/use-baseline */
   text-size-adjust: none;
+}
+
+/* Google Translate RTL support */
+
+/* https://dbushell.com/2025/09/12/css-reset/#:~:text=translated%2Drtl */
+html.translated-rtl {
+  direction: rtl;
 }
 
 /* Remove default margin in favour of better control in authored CSS */
