@@ -5,6 +5,11 @@
  * https://dbushell.com/2025/09/12/css-reset/
  */
 
+:root {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/interpolate-size */
+  interpolate-size: allow-keywords;
+}
+
 /* Use a more-intuitive box-sizing model. */
 *,
 *::before,
@@ -24,6 +29,8 @@ html {
   -webkit-text-size-adjust: none;
   /* stylelint-disable-next-line plugin/use-baseline */
   text-size-adjust: none;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scrollbar-gutter */
+  scrollbar-gutter: stable;
 }
 
 /* Google Translate RTL support */
@@ -59,7 +66,8 @@ body {
   min-block-size: 100vh;
 
   /* dynamic viewport block size - https://developer.mozilla.org/en-US/docs/Web/CSS/length#vb */
-  min-block-size: 100dvb;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/length#browser_compatibility */
+  min-block-size: 100svb;
 
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering#browser_compatibility */
   /* stylelint-disable-next-line value-keyword-case */
