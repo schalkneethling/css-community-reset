@@ -8,3 +8,4 @@ A CSS reset inspired by the community.
 - [Josh Comeau - A Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 - [Kilian Valkhof - Your CSS reset needs text-size-adjust (probably)](https://kilianvalkhof.com/2022/css-html/your-css-reset-needs-text-size-adjust-probably/)
 - [David Bushell - Let’s see Paul Allen’s CSS Reset](https://dbushell.com/2025/09/12/css-reset/)
+- [Kevin Powell](https://www.youtube.com/watch?v=qI5rXLJnxco)
