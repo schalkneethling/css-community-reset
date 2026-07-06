@@ -2,7 +2,6 @@
   "name": "css-community-reset",
   "version": "1.0.0",
   "description": "A CSS reset inspired by the community",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier:lint": "prettier .",
@@ -15,8 +14,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/schalkneethling/css-community-reset/issues"
   },
