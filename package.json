@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/schalkneethling/css-community-reset#readme",
   "devDependencies": {
-    "prettier": "^3.9.5",
+    "prettier": "^3.9.6",
     "stylelint": "^17.14.0",
     "stylelint-config-standard": "^40.0.0",
     "stylelint-order": "^8.1.1",
